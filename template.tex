@@ -23,23 +23,21 @@
 
 \documentclass[
 	%a4paper, % Uncomment for A4 paper size (default is US letter)
-	11pt, % Default font size, can use 10pt, 11pt or 12pt
+	10pt, % Default font size, can use 10pt, 11pt or 12pt
 ]{resume} % Use the resume class
 
 \usepackage{ebgaramond} % Use the EB Garamond font
 
 %------------------------------------------------
 
-\name{John Smith} % Your name to appear at the top
+\name{Alton Lavin D'souza} % Your name to appear at the top
 
 % You can use the \address command up to 3 times for 3 different addresses or pieces of contact information
 % Any new lines (\\) you use in the \address commands will be converted to symbols, so each address will appear as a single line.
 
-\address{123 Broadway \\ City, State 12345} % Main address
+\address{Edmonton, Alberta} % Main address
 
-\address{123 Pleasant Lane \\ City, State 12345} % A secondary address (optional)
-
-\address{(011)~$\cdot$~899~$\cdot$~9881 \\ john@LaTeXTemplates.com} % Contact information
+\address{+1(780)~$\cdot$~710~$\cdot$~8605 \\ altondsouza02@gmail.com} % Contact information
 
 %----------------------------------------------------------------------------------------
 
@@ -51,12 +49,14 @@
 
 \begin{rSection}{Education}
 	
-	\textbf{University of California, Berkeley} \hfill \textit{June 2004} \\ 
-	B.S. in Computer Science \& Engineering \\
-	Minor in Linguistics \smallskip \\
-	Member of Eta Kappa Nu \\
-	Member of Upsilon Pi Epsilon \\
-	Overall GPA: 5.678
+	\textbf{University of Alberta, Edmonton,AB} \hfill \textit{August 2023 - May 2025} \\ 
+	Masters in Electrical \& Computer Engineering \\
+	Overall GPA: 3.7\\
+	
+	\textbf{Christ University, Bangalore, India}\hfill
+	\textit{June 2016 - March 2020}\\
+	Bachelors in Computer Science \& Engineering\\
+	First Class
 	
 \end{rSection}
 
@@ -66,35 +66,37 @@
 
 \begin{rSection}{Experience}
 
-	\begin{rSubsection}{ACME, Inc}{October 2010 - Present}{Web Developer}{Palo Alto, CA}
-		\item Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a diam lectus.
-		\item Donec et mollis dolor. Praesent et diam eget libero Adobe Coldfusion egestas mattis sit amet vitae augue.
-		\item Nam tincidunt congue enim, ut porta lorem Microsoft SQL lacinia consectetur.
-		\item Donec ut libero sed arcu vehicula ultricies a non tortor. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-		\item Pellentesque auctor nisi id magna consequat JavaScript sagittis.
-		\item Aliquam at massa ipsum. Quisque bash bibendum purus convallis nulla ultrices ultricies.
+	\begin{rSubsection}{Prar Labs}{May 2024 - Present}{Artificial Intelligence Intern}{San Francisco, CA (Remote)}
+		\item Worked on creating a chat bot that can answer medically related questions and also fetch and summarize patient records.
+		\item Used technologies like Python, FastAPI, HuggingFace, LangChain and MongoDb Cloud Atlas, Docker and NVIDIA CUDA.
+		\item Made use of pretrained models like Llama to create a RAG bot.
+		\item Made use of few shot prompt examples to fine tune responses.
+		\item Integrated the LLM with Ausa Medical Platform
+		\item Working on fine tuning responses for specific use cases and creating agents.
 	\end{rSubsection}
 
 %------------------------------------------------
 
-	\begin{rSubsection}{AJAX Hosting}{December 2009 - October 2010}{Lead Developer}{Austin, TX}
-		\item Aenean ut gravida lorem. Ut turpis felis, Perl pulvinar a semper sed, adipiscing id dolor.
-		\item Curabitur dapibus enim sit amet elit pharetra tincidunt website feugiat nisl imperdiet. Ut convallis AJAX libero in urna ultrices accumsan.
-		\item Cum sociis natoque penatibus et magnis dis MySQL parturient montes, nascetur ridiculus mus.
-		\item In rutrum accumsan ultricies. Mauris vitae nisi at sem facilisis semper ac in est.
-		\item Nullam cursus suscipit nisi, et ultrices justo sodales nec. Fusce venenatis facilisis lectus ac semper.
+	\begin{rSubsection}{Oracle Cerner}{December 2019 - August 2023}{Software Engineer}{Bangalore, India, Karnataka}
+		\item Worked on maintaining and building medical device drivers for the CareAware EHR Platform
+		\item Used technologies like Terraform, Java and Python
+		\item Mentored and onboarded new team members and interns
+		\item Collaborated in Design and Development of Careware EHR Services and products
+		\item Created Integration testing framework for medical device drivers
+		\item Promoted IaaC adoption in the team.
 	\end{rSubsection}
-
-%------------------------------------------------
-
-	\begin{rSubsection}{TinySoft}{January 2008 - April 2010}{Web Designer \& Developer}{Gainesville, GA}
-		\item Vivamus PostgreSQL fermentum semper porta. Nunc diam velit PHP, adipiscing ut tristique vitae
-		\item Maecenas convallis ullamcorper ultricies stylesheets.
-		\item Quisque mi metus, unit tests CSS ornare sit amet fermentum et, tincidunt et orci.
-		\item Curabitur venenatis pulvinar tellus gravida ornare. Sed et erat faucibus nunc euismod ultricies ut id
-	\end{rSubsection}
-
+	
 \end{rSection}
+
+\begin{rSection}{Certifications}
+	\begin{rSubsection}{AWS Certified Machine Learning Specialty}{December 2019 - August 2023}{Score:823/1000}{Edmonton,AB}
+		\item Met competencies in Data Engineering, Exploratory Data Analysis, Modeling and Machine Learning Operations.
+	\end{rSubsection}
+	\begin{rSubsection}{Advanced Certification for Artificial Intelligence in Digital Health and Imaging}{December 2019 - August 2023}{Final Grade: A}{Edmonton,AB}
+		\item Explored Topics like Digital Health, Wearable Devices and physiological Signal Processing, Machine Learning, Deep Learning and its Applications, Deep Learning in Imaging and Vision
+	\end{rSubsection}
+\end{rSection}
+
 
 %----------------------------------------------------------------------------------------
 %	TECHNICAL STRENGTHS SECTION
@@ -103,10 +105,10 @@
 \begin{rSection}{Technical Strengths}
 
 	\begin{tabular}{@{} >{\bfseries}l @{\hspace{6ex}} l @{}}
-		Computer Languages & Prolog, Haskell, AWK, Erlang, Scheme, ML \\
-		Protocols \& APIs & XML, JSON, SOAP, REST \\
-		Databases & MySQL, PostgreSQL, Microsoft SQL \\
-		Tools & SVN, Vim, Emacs
+		Computer Languages & Python, Java \\
+		Deep Learning Frameworks & Pytorch and Tensorflow \\
+		Machine Learning and Visualization Frameworks & scikit-learn and sklearn, seaborn, pandas and matplotlib \\
+		Cloud & Terraform, GCP, AWS and OCI
 	\end{tabular}
 
 \end{rSection}
